@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/contato.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>  
+    <title>Aula sobre html</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <ul>
+          <li><img src="/assets/book-regular-24.png" /></li>
+          <li><a href="/index.html">Home </a></li>
+          <li>Contato</li>
+         
+        </ul>
+      </nav>
+    </header>
+
+      <section class="forms">
+        <div>
+        <h1>Entre em contato! </h1>                    
+        <form class="formulario">
+          <label  for="nome">Nome</label>
+          <input  id="nome" onkeyup="validaNome()" type="text">
+          <div id="txtNome"></div>
+
+          <label for="email">E-mail</label>
+          <input  id="email" onkeyup="validaEmail()" type="email">
+          <div id="txtemail"></div>
+
+          <label for="mensagem">Envie sua mensagem</label>
+          <textarea id="assunto" onkeyup="validaEmail"></textarea>
+          <div id="txtAssunto"></div>
+
+          <button class="btn" onclick="enviar()">Enviar</button>
+        </div>
+        </form>
+        <div class="local">
+            <img src="/assets/bg-4.png">
+        </div>
+      </section>
+
+        
+
+        <footer class="footer">
+            <div class="redes-sociais">
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin' ></i>
+            
+           </div>
+        </footer>
+        
+            
+   
+    <script src="js/main.js"></script>
+  </body>
+</html>
