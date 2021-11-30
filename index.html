@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/contato.css" >
     <title>Blog com bootstrap</title>
 </head>
  <body> 
@@ -13,7 +14,7 @@
     <header >
     <nav class="navbar navbar-expand-lg text-white ">
         <div class="container-fluid text-white">
-          <a class="navbar-brand text-white" href="#">Coffe now</a>
+          <a class="navbar-brand text-white " href="#">Coffe now</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,24 +24,15 @@
                 <a class="nav-link active text-white " aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Menu</a>
+                <a class="nav-link text-white" href="#menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Reservation</a>
+                <a class="nav-link text-white" href="#reserva">Reservation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contato</a>
+                <a class="nav-link text-white" href="#contato">Contato</a>
               </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Páginas
-                </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item text-white" href="#">Home</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Contato</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
+             
             </ul>
           </div>
           </form>
@@ -53,40 +45,188 @@
            <p class="color-white">CAFÉ | RESTAURANT</p>
             <h1>Coffe now</h1>
             <p>A unique café located in the heart of Los Angeles.<br> Always fresh coffee and biscuits. Open for indoor dining and to-go orders.</p>
-            <button type="button" class="btn bg-warning text-dark mt-9">Marcar uma reserva</button>
+            <button type="button" class="btn btn-outline-warning">Marcar uma reserva</button>
         </section>
-    </main>
+      </main>
     </div>
-    <section class=" text-center">
-      <h1>O que o Coffe now ira te proporcionar </h1>
-      <div id="carouselExampleIndicators"  class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/assets/bg2.jpg" class="d-block w-100" alt="...">
+
+    <section class="menu row" id="menu" >
+      <div class="card mb-3" style="max-width: 500px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/assets/cake1.jpg" class="img-fluid rounded-start" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="/assets/bg3.jpg" class="d-block w-100" alt=".">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/bg4.jpg" class="d-block w-100" alt="...">
+          <div class="col-md-8 text-white bg-dark">
+            <div class="card-body">
+              <h5 class="card-title">Cake de Amora</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Disponivel para entregas</small></p>
+              <p class="card-text"> r$35,00</p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
       
+      <div class="card mb-3 col-12 col-md-6" style="max-width: 500px; " id="menu" >
+        <div class="row g-0" >
+          <div class="col-md-4">
+            <img src="/assets/cake2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8 text-white bg-dark">
+            <div class="card-body">
+              <h5 class="card-title">Cookies de chocolate</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Disponivel para entregas</small></p>
+              <p class="card-text"> r$25,00</p>
+
+            </div>
+          </div>
+      </div>
+   </div>
+   <div class="card mb-3 col-12 col-md-6" style="max-width: 500px;">
+    <div class="row g-0 text-white bg-dark">
+      <div class="col-md-4">
+        <img src="/assets/coffe1.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Café com leite</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Não está disponivel para entregas</small></p>
+          <p class="card-text"> r$15,00</p>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="card mb-3 col-12 col-md-6" style="max-width: 500px;">
+  <div class="row g-0 text-white bg-dark">
+    <div class="col-md-4">
+      <img src="/assets/cake6.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Waffles</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Disponivel para entregas</small></p>
+        <p class="card-text"> r$26,00</p>
+      </div>
+    </div>
+</div>
+</div>
+<div class="card mb-3 col-12 col-md-6" style="max-width: 500px;">
+  <div class="row g-0 text-white bg-dark">
+    <div class="col-md-4">
+      <img src="/assets/cake5.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Panquecas com mel</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Disponivel para entregas</small></p>
+        <p class="card-text"> r$35,00</p>
+      </div>
+    </div>
+</div>
+</div>
+<div class="card mb-3 col-12 col-md-6" style="max-width: 500px;">
+  <div class="row g-0 text-white bg-dark">
+    <div class="col-md-4">
+      <img src="/assets/coffe2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Cappuccino com creme</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Não está disponivel para entregas</small></p>
+        <p class="card-text"> r$15,00</p>
+      </div>
+    </div>
+</div>
+</div>
+</section>
+
+    <section class="reserva text-center" id="reserva">
+      <h3>Realize a sua reserva</h3>
+      <p class="pb-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo<br> praesentium sequi in cum, beatae maiores quae qui.</p>
+      <form class="formReserva mt-50">
+      <div class="reservainput row g-3 align-items-center">
+        <div class="col-auto">
+          <input type="text" id="inputNome" class="form-control" placeholder="Nome" >
+        </div>
+        <div class="col-auto">
+          <input type="tel" id="inputTel" class="form-control" placeholder="Telefone" >
+        </div>
+      </div>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <select class="form-select " aria-label="Selecione a quantidade de pessoas">
+            <option selected>Selecione a quantidade de pessoas</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5</option>
+          </select>       
+          </div>
+        <div class="col-auto">
+          <input type="date" id="inputData" class="form-control" >
+        </div>
+      </div>
+      </form>
+      <button type="button" class="btn btn-outline-warning">Marcar uma reserva</button>
+
     </section>
+
+
+    <section class="carousel-section">
+    <div id="carouselExampleControls" class="carouselslide" data-bs-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/bg2.jpg" class="d-block " alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/bg3.jpg" class="d-block " alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/bg4.jpg" class="d-block " alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+
+    <footer class="footer bg-dark" id="contato">
+      <div class="row align-items-center ">
+        <div class="col">
+          <h6 class="text-warning">Sobre a Coffe Now</h6>
+          <p  class="text-white">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. 
+            Corrupti dolorum, sint corporis nostru</p>
+        </div>
+       
+        <div class="col text-white">
+          <h6 class="text-warning">Contato</h6>
+          <p  class="text-white"> +55 99999999 | +55 95988989</p>
+          <p>email@email.com.br</p>
+        
+        </div>
+        <div class="col">
+          <h6 class="text-warning">Redes Sociais</h6>
+          <p  class="text-white">instragram | Facebook | TikTok </p>
+         
+
+        </div>
+      </div>
+      </div>
+    </footer>
+    
+    
     
 
     <script src="/main.js"></script>

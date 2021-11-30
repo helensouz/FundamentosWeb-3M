@@ -27,6 +27,7 @@
 .main h1{
     font-family: 'Cabin', sans-serif;
     font-style: italic;
+    line-height: px;
 }
 
 .btn{
@@ -35,12 +36,7 @@
    
 }
 
-.cont{
-    background-image: url('/assets/bg1.jpg' );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .carouselmain h3, p{
     font-style: italic;
@@ -51,51 +47,9 @@
     justify-content: center;
     display: flex;
 }
-
-
-.menu{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    padding-left: 10px;
-   
-}
-.formReserva{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 500px;
-}
-
-.formReserva input{
-    
+.forms input{
     width: 300px;
-    margin-right: 10px;
+    border: none;
+    border-radius: 1px;
 }
-
-.formReserva h3, p{
-    padding-bottom: 20px;
-}
-
-.carouselslide{
-    width: auto;
-   padding-left: 250px;
-  
-}
-
-.footer{
-    padding-top: 90px;
-    padding-left: 45px;
-    margin-top: 50px;
-    width: auto;
-    height: 300px;
-    
-}
-
-h1,h2,h3,h5,h6{
-    font-family:'Playfair Display',serif ;
-    font-style: italic;
-}
-
-
 
